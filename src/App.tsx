@@ -80,6 +80,7 @@ function App() {
     if (solana) {
       await solana.disconnect();
       setWalletKey(undefined);
+      console.log("Disconnected!")
     }
   };
 
